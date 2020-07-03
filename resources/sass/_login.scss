@@ -1,0 +1,52 @@
+form.user {
+
+  .custom-checkbox.small {
+    
+    label {
+      line-height: 1.5rem;
+    }
+  }
+
+  .form-control-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .btn-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .form-file {
+
+    input {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+
+      & + label {
+        cursor: pointer;
+        font-size: 0.8rem;
+        border-radius: 10rem;
+        padding: 1.5em 1rem;
+        line-height: 0.8rem;
+        height: calc(3rem + 2px);
+        margin: 0;
+      }
+    }
+  }
+
+  .form-select {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 1.2em 0.7rem;
+    line-height: 0.8rem;
+    height: calc(3rem + 2px);
+  }
+
+}
